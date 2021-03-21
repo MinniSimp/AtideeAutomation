@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="37" passed="15" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-21T05:28:15Z" name="Default suite" finished-at="2021-03-21T05:30:41Z" duration-ms="146374">
+    <groups>
+    </groups>
+    <test started-at="2021-03-21T05:28:15Z" name="Default test" finished-at="2021-03-21T05:30:41Z" duration-ms="146374">
+      <class name="com.simplogics.testcases.Loginpage">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e]" started-at="2021-03-21T10:58:15Z" name="setReport" finished-at="2021-03-21T10:58:15Z" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e]" started-at="2021-03-21T10:58:15Z" name="setUp" finished-at="2021-03-21T10:58:28Z" duration-ms="12890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e]" started-at="2021-03-21T10:58:28Z" name="loginpage" data-provider="dp" finished-at="2021-03-21T10:58:32Z" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@simplogics.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Power123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e]" started-at="2021-03-21T10:58:32Z" name="tearDown" finished-at="2021-03-21T10:58:33Z" duration-ms="1311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginpage status=SUCCESS method=Loginpage.loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Emailsend()[pri:0, instance:com.simplogics.testcases.Loginpage@312ab28e]" started-at="2021-03-21T11:00:41Z" name="Emailsend" finished-at="2021-03-21T11:00:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emailsend -->
+      </class> <!-- com.simplogics.testcases.Loginpage -->
+      <class name="com.simplogics.testcases.Visits">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Visits@11981797]" started-at="2021-03-21T11:00:24Z" name="setReport" finished-at="2021-03-21T11:00:24Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Visits@11981797]" started-at="2021-03-21T11:00:24Z" name="setUp" finished-at="2021-03-21T11:00:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="visits()[pri:16, instance:com.simplogics.testcases.Visits@11981797]" started-at="2021-03-21T11:00:24Z" name="visits" finished-at="2021-03-21T11:00:25Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visits -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Visits@11981797]" started-at="2021-03-21T11:00:25Z" name="tearDown" finished-at="2021-03-21T11:00:25Z" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visits status=SUCCESS method=Visits.visits()[pri:16, instance:com.simplogics.testcases.Visits@11981797] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Visits -->
+      <class name="com.simplogics.testcases.CreateCompany">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CreateCompany@5644dc81]" started-at="2021-03-21T10:58:36Z" name="setReport" finished-at="2021-03-21T10:58:36Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CreateCompany@5644dc81]" started-at="2021-03-21T10:58:36Z" name="setUp" finished-at="2021-03-21T10:58:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createCompany(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.simplogics.testcases.CreateCompany@5644dc81]" started-at="2021-03-21T10:58:36Z" name="createCompany" data-provider="dp" finished-at="2021-03-21T10:58:40Z" duration-ms="4581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimplogicsT2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SS09T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompany -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CreateCompany@5644dc81]" started-at="2021-03-21T10:58:40Z" name="tearDown" finished-at="2021-03-21T10:58:41Z" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCompany status=SUCCESS method=CreateCompany.createCompany(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.simplogics.testcases.CreateCompany@5644dc81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CreateCompany -->
+      <class name="com.simplogics.testcases.UserSearch">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.UserSearch@5c42d2b7]" started-at="2021-03-21T10:59:43Z" name="setReport" finished-at="2021-03-21T10:59:43Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.UserSearch@5c42d2b7]" started-at="2021-03-21T10:59:43Z" name="setUp" finished-at="2021-03-21T10:59:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userSearch(java.lang.String)[pri:12, instance:com.simplogics.testcases.UserSearch@5c42d2b7]" started-at="2021-03-21T10:59:43Z" name="userSearch" data-provider="dp" finished-at="2021-03-21T10:59:53Z" duration-ms="9834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.UserSearch@5c42d2b7]" started-at="2021-03-21T10:59:53Z" name="tearDown" finished-at="2021-03-21T10:59:53Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSearch status=SUCCESS method=UserSearch.userSearch(java.lang.String)[pri:12, instance:com.simplogics.testcases.UserSearch@5c42d2b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.UserSearch -->
+      <class name="com.simplogics.testcases.ManageCompanyLocation">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.ManageCompanyLocation@625abb97]" started-at="2021-03-21T10:59:04Z" name="setReport" finished-at="2021-03-21T10:59:04Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="manageCompanyLocation(java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.simplogics.testcases.ManageCompanyLocation@625abb97]" started-at="2021-03-21T10:59:04Z" name="manageCompanyLocation" data-provider="dp" finished-at="2021-03-21T10:59:17Z" duration-ms="13201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trivandrum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CCDY80T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageCompanyLocation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.ManageCompanyLocation@625abb97]" started-at="2021-03-21T10:59:04Z" name="setUp" finished-at="2021-03-21T10:59:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.ManageCompanyLocation@625abb97]" started-at="2021-03-21T10:59:17Z" name="tearDown" finished-at="2021-03-21T10:59:17Z" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manageCompanyLocation status=SUCCESS method=ManageCompanyLocation.manageCompanyLocation(java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.simplogics.testcases.ManageCompanyLocation@625abb97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.ManageCompanyLocation -->
+      <class name="com.simplogics.testcases.UserChangePassword">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.UserChangePassword@278bb07e]" started-at="2021-03-21T11:00:12Z" name="setReport" finished-at="2021-03-21T11:00:12Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.UserChangePassword@278bb07e]" started-at="2021-03-21T11:00:12Z" name="setUp" finished-at="2021-03-21T11:00:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userChnagepassword(java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.simplogics.testcases.UserChangePassword@278bb07e]" started-at="2021-03-21T11:00:12Z" name="userChnagepassword" data-provider="dp" finished-at="2021-03-21T11:00:24Z" duration-ms="12091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Power123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Power123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userChnagepassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.UserChangePassword@278bb07e]" started-at="2021-03-21T11:00:24Z" name="tearDown" finished-at="2021-03-21T11:00:24Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userChnagepassword status=SUCCESS method=UserChangePassword.userChnagepassword(java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.simplogics.testcases.UserChangePassword@278bb07e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.UserChangePassword -->
+      <class name="com.simplogics.testcases.Useredit">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Useredit@246f8b8b]" started-at="2021-03-21T10:59:53Z" name="setReport" finished-at="2021-03-21T10:59:53Z" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Useredit@246f8b8b]" started-at="2021-03-21T10:59:53Z" name="setUp" finished-at="2021-03-21T10:59:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userEdit()[pri:13, instance:com.simplogics.testcases.Useredit@246f8b8b]" started-at="2021-03-21T10:59:53Z" name="userEdit" finished-at="2021-03-21T11:00:05Z" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEdit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Useredit@246f8b8b]" started-at="2021-03-21T11:00:05Z" name="tearDown" finished-at="2021-03-21T11:00:05Z" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userEdit status=SUCCESS method=Useredit.userEdit()[pri:13, instance:com.simplogics.testcases.Useredit@246f8b8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Useredit -->
+      <class name="com.simplogics.testcases.CompanySearch">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CompanySearch@4351c8c3]" started-at="2021-03-21T10:58:41Z" name="setReport" finished-at="2021-03-21T10:58:41Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CompanySearch@4351c8c3]" started-at="2021-03-21T10:58:41Z" name="setUp" finished-at="2021-03-21T10:58:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="companySearch(java.lang.String)[pri:6, instance:com.simplogics.testcases.CompanySearch@4351c8c3]" started-at="2021-03-21T10:58:41Z" name="companySearch" data-provider="dp" finished-at="2021-03-21T10:58:53Z" duration-ms="12841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimplogicsT2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companySearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CompanySearch@4351c8c3]" started-at="2021-03-21T10:58:53Z" name="tearDown" finished-at="2021-03-21T10:58:54Z" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companySearch status=SUCCESS method=CompanySearch.companySearch(java.lang.String)[pri:6, instance:com.simplogics.testcases.CompanySearch@4351c8c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CompanySearch -->
+      <class name="com.simplogics.testcases.Companymenu">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Companymenu@5b1f29fa]" started-at="2021-03-21T10:58:34Z" name="setReport" finished-at="2021-03-21T10:58:34Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="companymenu()[pri:4, instance:com.simplogics.testcases.Companymenu@5b1f29fa]" started-at="2021-03-21T10:58:34Z" name="companymenu" finished-at="2021-03-21T10:58:35Z" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companymenu -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Companymenu@5b1f29fa]" started-at="2021-03-21T10:58:34Z" name="setUp" finished-at="2021-03-21T10:58:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Companymenu@5b1f29fa]" started-at="2021-03-21T10:58:35Z" name="tearDown" finished-at="2021-03-21T10:58:36Z" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companymenu status=SUCCESS method=Companymenu.companymenu()[pri:4, instance:com.simplogics.testcases.Companymenu@5b1f29fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Companymenu -->
+      <class name="com.simplogics.testcases.CreateUsers">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CreateUsers@3381b4fc]" started-at="2021-03-21T10:59:20Z" name="setReport" finished-at="2021-03-21T10:59:21Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CreateUsers@3381b4fc]" started-at="2021-03-21T10:59:21Z" name="setUp" finished-at="2021-03-21T10:59:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUsers(java.lang.String, java.lang.String)[pri:11, instance:com.simplogics.testcases.CreateUsers@3381b4fc]" started-at="2021-03-21T10:59:21Z" name="createUsers" data-provider="dp" finished-at="2021-03-21T10:59:43Z" duration-ms="22364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[minni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CreateUsers@3381b4fc]" started-at="2021-03-21T10:59:43Z" name="tearDown" finished-at="2021-03-21T10:59:43Z" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUsers status=SUCCESS method=CreateUsers.createUsers(java.lang.String, java.lang.String)[pri:11, instance:com.simplogics.testcases.CreateUsers@3381b4fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CreateUsers -->
+      <class name="com.simplogics.testcases.CreateSpace">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CreateSpace@aeab9a1]" started-at="2021-03-21T10:58:33Z" name="setReport" finished-at="2021-03-21T10:58:34Z" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="createSpace()[pri:3, instance:com.simplogics.testcases.CreateSpace@aeab9a1]" started-at="2021-03-21T10:58:34Z" name="createSpace" finished-at="2021-03-21T10:58:34Z" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test SPACEMENUas the Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test SPACEMENUas the Run mode is NO
+	at com.simplogics.testcases.CreateSpace.createSpace(CreateSpace.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSpace -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CreateSpace@aeab9a1]" started-at="2021-03-21T10:58:34Z" name="setUp" finished-at="2021-03-21T10:58:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CreateSpace@aeab9a1]" started-at="2021-03-21T10:58:34Z" name="tearDown" finished-at="2021-03-21T10:58:34Z" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createSpace status=SKIP method=CreateSpace.createSpace()[pri:3, instance:com.simplogics.testcases.CreateSpace@aeab9a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CreateSpace -->
+      <class name="com.simplogics.testcases.Users">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Users@40f70521]" started-at="2021-03-21T10:59:17Z" name="setReport" finished-at="2021-03-21T10:59:17Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="users()[pri:10, instance:com.simplogics.testcases.Users@40f70521]" started-at="2021-03-21T10:59:17Z" name="users" finished-at="2021-03-21T10:59:20Z" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Users@40f70521]" started-at="2021-03-21T10:59:17Z" name="setUp" finished-at="2021-03-21T10:59:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Users@40f70521]" started-at="2021-03-21T10:59:20Z" name="tearDown" finished-at="2021-03-21T10:59:20Z" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=users status=SUCCESS method=Users.users()[pri:10, instance:com.simplogics.testcases.Users@40f70521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Users -->
+      <class name="com.simplogics.testcases.UserClearSession">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.UserClearSession@55342f40]" started-at="2021-03-21T11:00:05Z" name="setReport" finished-at="2021-03-21T11:00:05Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.UserClearSession@55342f40]" started-at="2021-03-21T11:00:05Z" name="setUp" finished-at="2021-03-21T11:00:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userClearSession()[pri:14, instance:com.simplogics.testcases.UserClearSession@55342f40]" started-at="2021-03-21T11:00:05Z" name="userClearSession" finished-at="2021-03-21T11:00:12Z" duration-ms="6506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userClearSession -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.UserClearSession@55342f40]" started-at="2021-03-21T11:00:12Z" name="tearDown" finished-at="2021-03-21T11:00:12Z" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userClearSession status=SUCCESS method=UserClearSession.userClearSession()[pri:14, instance:com.simplogics.testcases.UserClearSession@55342f40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.UserClearSession -->
+      <class name="com.simplogics.testcases.Companylocationoption">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Companylocationoption@774698ab]" started-at="2021-03-21T10:58:59Z" name="setReport" finished-at="2021-03-21T10:58:59Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Companylocationoption@774698ab]" started-at="2021-03-21T10:58:59Z" name="setUp" finished-at="2021-03-21T10:58:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="companylocationoption()[pri:8, instance:com.simplogics.testcases.Companylocationoption@774698ab]" started-at="2021-03-21T10:58:59Z" name="companylocationoption" finished-at="2021-03-21T10:59:04Z" duration-ms="4418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companylocationoption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Companylocationoption@774698ab]" started-at="2021-03-21T10:59:04Z" name="tearDown" finished-at="2021-03-21T10:59:04Z" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companylocationoption status=SUCCESS method=Companylocationoption.companylocationoption()[pri:8, instance:com.simplogics.testcases.Companylocationoption@774698ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Companylocationoption -->
+      <class name="com.simplogics.testcases.CompanyEdit">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CompanyEdit@a4ca3f6]" started-at="2021-03-21T10:58:54Z" name="setReport" finished-at="2021-03-21T10:58:54Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CompanyEdit@a4ca3f6]" started-at="2021-03-21T10:58:54Z" name="setUp" finished-at="2021-03-21T10:58:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="companyedit(java.lang.String, java.lang.String)[pri:7, instance:com.simplogics.testcases.CompanyEdit@a4ca3f6]" started-at="2021-03-21T10:58:54Z" name="companyedit" data-provider="dp" finished-at="2021-03-21T10:58:59Z" duration-ms="5201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyedit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CompanyEdit@a4ca3f6]" started-at="2021-03-21T10:58:59Z" name="tearDown" finished-at="2021-03-21T10:58:59Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=companyedit status=SUCCESS method=CompanyEdit.companyedit(java.lang.String, java.lang.String)[pri:7, instance:com.simplogics.testcases.CompanyEdit@a4ca3f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CompanyEdit -->
+      <class name="com.simplogics.testcases.CreateVisits">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CreateVisits@6bea52d4]" started-at="2021-03-21T11:00:25Z" name="setReport" finished-at="2021-03-21T11:00:25Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CreateVisits@6bea52d4]" started-at="2021-03-21T11:00:25Z" name="setUp" finished-at="2021-03-21T11:00:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createVisits(java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.simplogics.testcases.CreateVisits@6bea52d4]" started-at="2021-03-21T11:00:25Z" name="createVisits" data-provider="dp" finished-at="2021-03-21T11:00:41Z" duration-ms="15503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Visits123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fortesting]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[misna.ismail@simplogics.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVisits -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CreateVisits@6bea52d4]" started-at="2021-03-21T11:00:41Z" name="tearDown" finished-at="2021-03-21T11:00:41Z" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createVisits status=SUCCESS method=CreateVisits.createVisits(java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.simplogics.testcases.CreateVisits@6bea52d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CreateVisits -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
